@@ -12,6 +12,7 @@ namespace DataAccessLayer
         //Getting the DB connection
         public SqlConnection GetDBConnection()
         {
+            //creating sql connection
             SqlConnection conn = new SqlConnection();
 
             conn.ConnectionString = "Data Source=CHAMARA-PC;Initial Catalog=TestDB-Chamara;Integrated Security=True";
